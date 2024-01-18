@@ -1,0 +1,33 @@
+body {
+    padding: 50px 100px;
+    background-color: cornsilk;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+
+}
+
+#container {
+    text-align: center;
+    background-color: #1abc9c;
+    padding: 75px;
+}
+
+#input-div {
+    display: inline-block;
+}
+
+.inp {
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+}
+
+label {
+    font-size: 32px;
+}
