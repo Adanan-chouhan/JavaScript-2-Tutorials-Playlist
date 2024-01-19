@@ -1,0 +1,30 @@
+body {
+    padding: 100px 150px;
+    background-color: cornsilk;
+}
+
+h1 {
+    text-align: center;
+    background-color: #006780;
+    padding: 10px;
+    color: white;
+    margin: 0px;
+}
+
+#texbox {
+    width: 99.2%;
+    border-color: #006780;
+    font-size: 15px;
+
+}
+
+p {
+    text-align: center;
+    background-color: #006780;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
