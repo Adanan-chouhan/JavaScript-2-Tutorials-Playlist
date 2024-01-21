@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sticky Menu Bar</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+    }
+
+    #header {
+        text-align: center;
+    }
+
+    #logo {
+        width: 500px;
+        height: auto;
+    }
+
+    #menu-bar {
+        text-align: center;
+        background-color: cadetblue;
+        margin: 20px;
+    }
+
+    #menu-bar li {
+        display: inline-block;
+        padding: 20px 20px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #container {
+        text-align: center;
+        padding: 50px 100px;
+    }
+
+    #About-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sticky {
+        position: fixed;
+        width: 100%;
+        top: 0px;
+    }
+
+    h1 {
+        text-decoration: underline;
+    }
+
+    p {
+        text-align: justify;
+    }
+</style>
+
+<body>
+    <script>
+        window.addEventListener("scroll", function () {
+            let navbar = document.getElementById("menu-bar");
+
+            if (window.pageYOffset >= 350) {
+                navbar.classList.add("sticky");
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        })
+    </script>
+    <div id="header">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSS-gsB1bmsyMH4gv-xVToA4dQA2lToFglbKKBeSdj0e9GANWHRa1R0NiAwVrnUIKlcyI&usqp=CAU"
+            id="logo" alt="">
+    </div>
+    <nav id="menu-bar" class="sticky">
+        <li>Home</li>
+        <li>About us</li>
+        <li>Our Team</li>
+        <li>Client</li>
+        <li>Contact Us</li>
+    </nav>
+    <div id="container">
+        <h1>About Us</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKhwraL1lDK7pBifJRw9FWrSuNNdGI0WSqug&usqp=CAU"
+            id="About-img" alt="">
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione harum excepturi doloremque debitis a earum
+            similique molestiae minus sapiente quaerat modi suscipit, ducimus alias unde quos ad saepe nisi molestias
+            cum. Ea officia, alias debitis eaque voluptate quas fugit exercitationem quia. Fuga, iste a officia eos,
+            ducimus blanditiis, facilis quo laudantium alias quisquam consequuntur. Illo ipsum temporibus reprehenderit
+            eos ipsa sint nulla nostrum alias laboriosam ex. Aspernatur placeat hic quibusdam debitis provident beatae
+            necessitatibus, perspiciatis, nihil, magni non accusamus esse dolore? Deleniti alias laudantium magnam esse
+            voluptatem nemo, ipsam, soluta ut rerum veritatis et, fuga laborum corrupti? Inventore vitae similique
+            praesentium minima placeat, consequatur corporis nam. Eveniet minus laboriosam dolores enim rerum! Eligendi
+            nulla harum delectus, rerum impedit mollitia doloremque fugiat amet ab, modi adipisci architecto corporis
+            culpa. Voluptatibus dolorem, aliquam maiores veniam reiciendis debitis sint! Tenetur aspernatur, accusantium
+            iste perspiciatis deleniti voluptate? Quis, tempora. Ipsum quo voluptatibus facere harum cumque? Eius, totam
+            recusandae. Omnis, quaerat beatae quo esse impedit nostrum excepturi atque animi nihil voluptatem velit. Qui
+            quasi vitae, assumenda et, minus quod nobis facere quisquam molestiae repellendus nostrum eveniet ea eaque
+            quam adipisci neque labore natus! Ipsum eligendi cupiditate, qui, quibusdam ipsam modi quod nisi doloremque
+            laboriosam excepturi veritatis ad at provident dicta voluptatem corporis eum, repellendus placeat? Adipisci,
+            aut, laudantium pariatur accusantium inventore eveniet, nostrum voluptas et veritatis deserunt temporibus.
+            Enim mollitia dolore nulla eligendi totam, eum possimus sed eaque sapiente, incidunt error, assumenda
+            reprehenderit dolor? A ut nobis sequi voluptatibus beatae nostrum temporibus quia dolores reprehenderit
+            laborum error consequuntur autem, nisi veniam reiciendis sunt, iste fugiat accusantium ex atque. Dolore
+            commodi quas atque iure sit nam nostrum eaque architecto. Eveniet odio asperiores quae architecto recusandae
+            obcaecati fugit ut delectus aut sunt, maiores tempore dignissimos explicabo vitae aspernatur, reprehenderit
+            ipsam saepe sed similique repudiandae nobis quaerat! Illo dolor reprehenderit aspernatur error distinctio
+            perferendis tenetur. Voluptates incidunt aliquam ipsa labore sunt tempore eum neque ut ullam! Non neque
+            consequuntur maxime aliquam nemo accusantium ipsum delectus, necessitatibus, perferendis nam illum
+            repudiandae sint. Quidem veritatis reprehenderit, necessitatibus provident, itaque ad cupiditate eaque
+            dolorum hic aliquam unde veniam id distinctio repudiandae excepturi laboriosam officia mollitia, ut omnis
+            est maiores quos! Fugiat blanditiis temporibus officia excepturi explicabo molestias aperiam nostrum, natus
+            ducimus laborum. Similique libero facilis quos ab ut eaque hic impedit nobis, nihil soluta sit repellat
+            vitae ipsum sed voluptatibus incidunt quaerat, voluptates perspiciatis cumque inventore officia ex qui quia
+            rerum! Iste dignissimos exercitationem unde quod doloribus natus quas ipsam cupiditate sed eum fugiat quos
+            odit libero non corporis atque quam vel deleniti reiciendis maxime, officiis enim id accusamus quasi.
+            Reiciendis libero odit voluptatem ullam repudiandae in soluta odio aliquid deserunt ea perferendis pariatur,
+            et repellendus laborum modi architecto cumque harum magnam dolorum tenetur omnis! Hic eaque animi aspernatur
+            at provident, eveniet repudiandae? Quasi maxime, numquam voluptas hic natus molestias possimus quis cumque.
+            Ipsum id similique error qui officiis! Aliquam quos eligendi culpa cumque illo? Beatae similique error magni
+            dolorum accusamus minima consectetur sequi quod rem odio temporibus, ratione neque facilis!
+        </p>
+    </div>
+</body>
+
+</html>
